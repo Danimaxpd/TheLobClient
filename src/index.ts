@@ -14,10 +14,11 @@ export function renderPDF(pathToPDFFile: string, fileInfo: number): PDFWrapper {
 
 // Feel free to use or remove this run function
 function run() {
+  console.info("--RUN--");
   const fileInfoByte = 0b111;
   const pathToPDFFile = "./example.pdf";
   const pdf = renderPDF(pathToPDFFile, fileInfoByte);
-  console.info("Loaded APP **The Lob Client**, PDF -->", pdf);
+  console.info("Loaded fake PDF -->", pdf);
 }
-
+console.info("******The Lob Client******");
 run();
