@@ -1,0 +1,26 @@
+{
+  "name": "The Lob Client",
+  "author": "David R Jimenez M <https://github.com/Danimaxpd>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "jest",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.21",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
