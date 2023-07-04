@@ -1,5 +1,0 @@
-class BestPDFEngine {
-
-}
-
-export { BestPDFEngine };
